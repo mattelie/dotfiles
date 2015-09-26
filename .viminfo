@@ -1,0 +1,535 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/ignore\c
+
+# 最後の Substitute 検索パターン:
+~MSle0&old
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+:wq
+:8
+:w
+:5
+:se nu
+:q!
+:900
+:help c_CTRL-D
+:help w
+:set noic
+:set hls is
+:set ic
+:800
+:650
+:r !ls
+:!ls
+:r TEST2
+:.!
+:'<,'>w TEST2
+:!rm TEST
+:600
+:w TEST
+:!dir
+:ls
+:590,600s/old/new/gc
+:592,600s/old/new/g
+:500
+:s/thee/the/g
+:s/thee/the
+:q:
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/ignore\c
+?/ignore
+? old
+?/th
+? thee
+??errroor
+??errooo
+?/errroor
+?/mem
+?/centos6
+?/csv
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""0	LINE	0
+	" ファイルタイプ別のプラグイン/インデントを有効にする
+"1	LINE	0
+	" ファイルタイプ別のプラグイン/インデントを有効にする
+"2	LINE	0
+	" インストールするプラグインをここに記述
+"3	LINE	0
+	" NeoBundleを初期化
+"4	LINE	0
+	   " 初回起動時のみruntimepathにneobundleのパスを指定する
+"5	LINE	0
+	     a) バラは赤い、
+"6	LINE	0
+	     d) 貴方も学ぶことができる?
+"7	LINE	0
+	--->  4)  私は車をもっている、
+	--->  5)  時計が時刻を告げる、
+"8	LINE	0
+	--->  2)  つまらないものは楽しい、
+"9	LINE	0
+	  多くのコマンドはオペレータとモーションからテキストに変更を加えます。
+	  削除コマンド d のオペレータは次の様になっています:
+"-	CHAR	0
+	)
+
+# ファイルマーク:
+'0  1  0  ~/.config/user-dirs.dirs
+'1  1  0  ~/.config
+'2  20  0  ~/.vimrc
+'3  900  0  /tmp/tutorxAD6WT
+'4  7  0  /cygdrive/e/Data/VMs/tutor
+'5  164  39  /tmp/tutorYPowUv
+'6  60  44  /tmp/tutorjU6Wbg
+'7  1  0  /cygdrive/e/Data/VMs/windowsxp/Vagrantfile
+'8  15  46  /cygdrive/e/Data/VMs/windowsxp/Vagrantfile
+'9  22  65  /cygdrive/e/Data/VMs/windows2008/Vagrantfile
+
+# ジャンプリスト (新しいものが先):
+-'  1  0  ~/.config/user-dirs.dirs
+-'  1  0  ~/.config
+-'  20  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  900  0  /tmp/tutorxAD6WT
+-'  858  28  /tmp/tutorxAD6WT
+-'  852  87  /tmp/tutorxAD6WT
+-'  847  38  /tmp/tutorxAD6WT
+-'  845  36  /tmp/tutorxAD6WT
+-'  842  67  /tmp/tutorxAD6WT
+-'  875  9  /tmp/tutorxAD6WT
+-'  916  7  /tmp/tutorxAD6WT
+-'  856  0  /tmp/tutorxAD6WT
+-'  843  40  /tmp/tutorxAD6WT
+-'  833  34  /tmp/tutorxAD6WT
+-'  806  18  /tmp/tutorxAD6WT
+-'  650  2  /tmp/tutorxAD6WT
+-'  556  5  /tmp/tutorxAD6WT
+-'  755  0  /tmp/tutorxAD6WT
+-'  643  0  /tmp/tutorxAD6WT
+-'  596  65  /tmp/tutorxAD6WT
+-'  639  0  /tmp/tutorxAD6WT
+-'  592  27  /tmp/tutorxAD6WT
+-'  593  0  /tmp/tutorxAD6WT
+-'  547  0  /tmp/tutorxAD6WT
+-'  594  53  /tmp/tutorxAD6WT
+-'  572  9  /tmp/tutorxAD6WT
+-'  571  9  /tmp/tutorxAD6WT
+-'  569  11  /tmp/tutorxAD6WT
+-'  590  5  /tmp/tutorxAD6WT
+-'  50  0  /tmp/tutorxAD6WT
+-'  1  0  /tmp/tutorxAD6WT
+-'  1004  1  /tmp/tutorxAD6WT
+-'  566  26  /tmp/tutorxAD6WT
+-'  565  0  /tmp/tutorxAD6WT
+-'  832  9  /tmp/tutorxAD6WT
+-'  563  15  /tmp/tutorxAD6WT
+-'  544  0  /tmp/tutorxAD6WT
+-'  545  0  /tmp/tutorxAD6WT
+-'  900  0  /tmp/tutorxAD6WT
+-'  858  28  /tmp/tutorxAD6WT
+-'  852  87  /tmp/tutorxAD6WT
+-'  847  38  /tmp/tutorxAD6WT
+-'  845  36  /tmp/tutorxAD6WT
+-'  842  67  /tmp/tutorxAD6WT
+-'  875  9  /tmp/tutorxAD6WT
+-'  916  7  /tmp/tutorxAD6WT
+-'  856  0  /tmp/tutorxAD6WT
+-'  843  40  /tmp/tutorxAD6WT
+-'  833  34  /tmp/tutorxAD6WT
+-'  806  18  /tmp/tutorxAD6WT
+-'  650  2  /tmp/tutorxAD6WT
+-'  556  5  /tmp/tutorxAD6WT
+-'  755  0  /tmp/tutorxAD6WT
+-'  643  0  /tmp/tutorxAD6WT
+-'  596  65  /tmp/tutorxAD6WT
+-'  639  0  /tmp/tutorxAD6WT
+-'  592  27  /tmp/tutorxAD6WT
+-'  593  0  /tmp/tutorxAD6WT
+-'  547  0  /tmp/tutorxAD6WT
+-'  594  53  /tmp/tutorxAD6WT
+-'  572  9  /tmp/tutorxAD6WT
+-'  571  9  /tmp/tutorxAD6WT
+-'  569  11  /tmp/tutorxAD6WT
+-'  590  5  /tmp/tutorxAD6WT
+-'  50  0  /tmp/tutorxAD6WT
+-'  1  0  /tmp/tutorxAD6WT
+-'  1004  1  /tmp/tutorxAD6WT
+-'  566  26  /tmp/tutorxAD6WT
+-'  565  0  /tmp/tutorxAD6WT
+-'  832  9  /tmp/tutorxAD6WT
+-'  563  15  /tmp/tutorxAD6WT
+-'  544  0  /tmp/tutorxAD6WT
+-'  545  0  /tmp/tutorxAD6WT
+-'  20  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  900  0  /tmp/tutorxAD6WT
+-'  858  28  /tmp/tutorxAD6WT
+-'  852  87  /tmp/tutorxAD6WT
+-'  847  38  /tmp/tutorxAD6WT
+-'  845  36  /tmp/tutorxAD6WT
+-'  842  67  /tmp/tutorxAD6WT
+-'  875  9  /tmp/tutorxAD6WT
+-'  916  7  /tmp/tutorxAD6WT
+-'  856  0  /tmp/tutorxAD6WT
+-'  843  40  /tmp/tutorxAD6WT
+-'  833  34  /tmp/tutorxAD6WT
+-'  806  18  /tmp/tutorxAD6WT
+-'  650  2  /tmp/tutorxAD6WT
+-'  556  5  /tmp/tutorxAD6WT
+-'  755  0  /tmp/tutorxAD6WT
+-'  643  0  /tmp/tutorxAD6WT
+-'  596  65  /tmp/tutorxAD6WT
+-'  639  0  /tmp/tutorxAD6WT
+-'  592  27  /tmp/tutorxAD6WT
+-'  593  0  /tmp/tutorxAD6WT
+-'  547  0  /tmp/tutorxAD6WT
+-'  594  53  /tmp/tutorxAD6WT
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.config/user-dirs.dirs
+	"	1	0
+
+> ~/.vimrc
+	"	20	0
+	^	20	0
+	.	20	0
+	+	18	0
+	+	6	0
+	+	8	0
+	+	11	0
+	+	13	0
+	+	18	25
+	+	20	0
+
+> /tmp/tutorxAD6WT
+	"	900	0
+	^	833	30
+	.	834	0
+	+	204	36
+	+	224	60
+	+	253	0
+	+	255	0
+	+	253	0
+	+	251	0
+	+	237	0
+	+	272	0
+	+	296	26
+	+	317	0
+	+	318	0
+	+	338	80
+	+	338	0
+	+	353	0
+	+	334	76
+	+	334	76
+	+	334	0
+	+	359	0
+	+	385	0
+	+	387	0
+	+	384	0
+	+	405	87
+	+	430	5
+	+	430	0
+	+	455	70
+	+	475	0
+	+	476	0
+	+	475	32
+	+	500	0
+	+	547	0
+	+	544	0
+	+	547	2
+	+	566	0
+	+	592	0
+	+	593	0
+	+	594	0
+	+	594	0
+	+	592	0
+	+	679	0
+	+	704	0
+	+	755	0
+	+	760	0
+	+	784	50
+	+	806	35
+	+	833	0
+	+	834	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	46	0
+
+> /usr/share/vim/vim74/doc/motion.txt
+	"	370	29
+
+> /usr/share/vim/vim74/doc/cmdline.txt
+	"	386	7
+
+> /cygdrive/e/Data/VMs/tutor
+	"	7	0
+	^	7	0
+	.	6	4
+	+	1	9
+	+	1	1
+	+	6	4
+
+> /tmp/tutorYPowUv
+	"	164	39
+	^	132	65
+	.	132	0
+	+	84	4
+	+	109	62
+	+	132	53
+	+	134	56
+	+	132	0
+
+> /tmp/tutorjU6Wbg
+	"	60	44
+
+> /cygdrive/e/Data/VMs/windowsxp/Vagrantfile
+	"	1	0
+	^	15	47
+	.	15	19
+	+	15	19
+
+> /cygdrive/e/Data/VMs/windows2008/Vagrantfile
+	"	22	65
+	^	22	66
+	.	22	65
+	+	22	84
+	+	21	0
+	+	22	65
+
+> /cygdrive/e/Data/VMs/centos6/Vagrantfile
+	"	89	0
+
+> ~/work/srvadm/srvadm.py
+	"	20	68
+
+> ~/work/srvadm/srvadm.sh
+	"	54	22
+	^	54	23
+	.	54	22
+	+	66	38
+	+	71	22
+	+	54	22
+
+> ~/work/dummy.json
+	"	180	0
+
+> ~/work/truncate.json
+	"	1	0
+
+> ~/.ssh/config
+	"	15	8
+	^	15	11
+	.	15	8
+	+	35	11
+	+	13	23
+	+	15	8
+
+> ~/work/srvadm/host.json
+	"	1	1
+
+> ~/work/srvadm/host.csv
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/work/conn/README.md
+	"	10	3
+	^	10	4
+	.	10	3
+	+	1	7
+	+	5	53
+	+	6	51
+	+	10	3
+
+> ~/work/conn/.gitignore
+	"	4	5
+	^	4	6
+	.	4	5
+	+	2	0
+	+	1	4
+	+	2	5
+	+	3	4
+	+	4	5
+
+> ~/work/conn/host.json
+	"	1	0
+
+> ~/work/conn/issh.sh
+	"	44	0
+	^	44	0
+	.	43	0
+	+	29	24
+	+	31	5
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	29	38
+	+	30	46
+	+	29	6
+	+	30	66
+	+	43	0
+
+> ~/work/conn/a.py
+	"	1	0
+
+> ~/work/conn/test.csv
+	"	50	46
+	^	50	54
+	.	50	46
+	+	47	50
+	+	49	46
+	+	50	46
+
+> ~/bin/erubis
+	"	23	0
+
+> ~/bin/python/a.json
+	"	40	0
+	^	33	23
+	.	33	22
+	+	40	0
+	+	24	7
+	+	26	3
+	+	39	1
+	+	38	8
+	+	26	3
+	+	39	0
+	+	38	6
+	+	30	13
+	+	27	18
+	+	33	22
+
+> ~/bin/python/a.sh
+	"	4	18
+	^	4	19
+	.	4	18
+	+	4	17
+	+	6	13
+	+	7	0
+	+	3	6
+	+	4	18
+
+> ~/bin/python/a.py
+	"	1	1
+	^	1	40
+	.	1	39
+	+	1	39
+
+> ~/bin/python/a.
+	"	1	0
+
+> ~/bin/python/host.json
+	"	1	0
+
+> ~/bin/python/ssh.sh
+	"	3	0
+	^	15	22
+	.	15	21
+	+	1	11
+	+	22	3
+	+	5	2
+	+	11	1
+	+	22	0
+	+	5	2
+	+	4	6
+	+	5	1
+	+	11	29
+	+	20	16
+	+	4	9
+	+	2	0
+	+	4	0
+	+	11	0
+	+	11	20
+	+	11	31
+	+	11	18
+	+	11	16
+	+	11	0
+	+	11	0
+	+	23	0
+	+	24	0
+	+	11	0
+	+	11	0
+	+	11	34
+	+	11	0
+	+	7	20
+	+	7	11
+	+	11	5
+	+	7	32
+	+	11	3
+	+	7	2
+	+	11	21
+	+	7	11
+	+	11	0
+	+	7	31
+	+	11	17
+	+	7	27
+	+	8	5
+	+	11	0
+	+	7	2
+	+	8	11
+	+	7	24
+	+	8	11
+	+	7	25
+	+	8	13
+	+	8	0
+	+	9	0
+	+	3	57
+	+	3	0
+	+	24	21
+	+	3	53
+	+	24	0
+	+	3	21
+	+	24	15
+	+	3	47
+	+	24	10
+	+	12	0
+	+	3	0
+	+	6	0
+	+	24	0
+	+	10	0
+	+	19	0
+	+	21	0
+	+	12	11
+	+	14	0
+	+	7	0
+	+	13	49
+	+	14	34
+	+	16	0
+	+	15	21
+
+> ~/bin/python/enc.txt
+	"	1	0
+
+> /cygdrive/e/Data/VMs/centos7/Vagrantfile
+	"	1	19
+	^	29	57
+	.	29	56
+	+	81	63
+	+	88	30
+	+	74	21
+	+	29	56

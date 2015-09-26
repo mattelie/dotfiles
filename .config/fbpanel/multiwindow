@@ -1,0 +1,58 @@
+# http://fbpanel.sourceforge.net/docs.html#config
+
+# Default settings are commented out
+Global {
+    Edge = top
+    Allign = left
+    WidthType = request
+#   HeightType = pixel
+#   Height = 26
+#   Margin = 0
+#   SetDockType = true
+#   SetPartialStrut = true
+#   Transparent = false
+    TintColor = #363B3B
+#   Alpha = 127
+#   Autohide = false
+    RoundCorners = false
+#   RoundCornersRadius = 7
+#   Layer = above
+    SetLayer = true
+#   MaxElemHeight = 200
+}
+
+plugin {
+    type = menu
+#   expand = false
+#   padding = 0
+    config {
+        icon = X
+        systemmenu {
+        }
+        separator {
+        }
+        item {
+            name = Cygwin Terminal
+            icon = utilities-terminal
+            action = mintty
+        }
+        item {
+            name = Exit Cygwin/X
+            icon = application-exit
+            action = /usr/libexec/fbpanel/xlogout
+        }
+    }
+}
+plugin {
+    type = tray
+    expand = true
+    padding = 2
+}
+plugin {
+    type = icons
+#   expand = false
+#   padding = 0
+    config {
+        DefaultIcon = X
+    }
+}
