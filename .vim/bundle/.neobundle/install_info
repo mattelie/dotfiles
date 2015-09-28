@@ -1,0 +1,2 @@
+3.0
+{'vimfiler': {'checked_time': 1443433098, 'installed_uri': 'https://github.com/Shougo/vimfiler.git', 'installed_path': '/home/usr0102134/.vim/bundle/vimfiler', 'revisions': {'1442974261': '2fefd882720cb0298bbf160b4e3d41c649accfec'}, 'updated_time': '1442974261'}, 'unite.vim': {'checked_time': 1443433098, 'installed_uri': 'https://github.com/Shougo/unite.vim.git', 'installed_path': '/home/usr0102134/.vim/bundle/unite.vim', 'revisions': {'1443224212': '816c3ae9c64753ce835f411a532d8fc8a195a796'}, 'updated_time': '1443224212'}}

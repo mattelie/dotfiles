@@ -201,3 +201,5 @@ export PATH=$PATH:$HOME/bin
 
 alias ssh="ssh -X"
 alias vi='vim'
+alias ex='explorer'
+alias gvim='"/cygdrive/c/Program Files/gvim/gvim.exe"'
