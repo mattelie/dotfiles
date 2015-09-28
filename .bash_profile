@@ -50,3 +50,4 @@ fi
 
 PATH=$PATH:"/cygdrive/c/Program Files (x86)/sakura":"/cygdrive/c/gvim"
 
+VAGRANTHOME="/cygdrive/c/HashiCorp/Vagrant/bin"
