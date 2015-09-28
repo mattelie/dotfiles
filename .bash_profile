@@ -45,7 +45,9 @@ fi
 
 if [ -x `which ssh-agent` ]; then
 	eval `ssh-agent`
-	ssh-add ~/.ssh/corp-auth.key
+	if [ -f ~/.ssh/corp-auth.key ]; then
+		ssh-add ~/.ssh/corp-auth.key
+	fi
 fi
 
 PATH=$PATH:"/cygdrive/c/Program Files (x86)/sakura":"/cygdrive/c/gvim"
