@@ -51,5 +51,6 @@ if [ -x `which ssh-agent` ]; then
 fi
 
 PATH=$PATH:"/cygdrive/c/Program Files (x86)/sakura":"/cygdrive/c/gvim"
+PATH=$PATH:$HOME/bin
 
 VAGRANTHOME="/cygdrive/c/HashiCorp/Vagrant/bin"
