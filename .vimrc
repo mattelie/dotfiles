@@ -12,6 +12,7 @@ call neobundle#begin(expand('$HOME/.vim/bundle/'))
 
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimfiler'
+NeoBundle 'vim-jp/vimdoc-ja'
 
 filetype plugin indent on
 
