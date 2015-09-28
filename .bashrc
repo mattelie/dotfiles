@@ -110,8 +110,8 @@
 # alias ls='ls -hF --color=tty'                 # classify files in colour
 # alias dir='ls --color=auto --format=vertical'
 # alias vdir='ls --color=auto --format=long'
-# alias ll='ls -l'                              # long list
-# alias la='ls -A'                              # all but . and ..
+ alias ll='ls -l'                              # long list
+ alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
 
 # Umask
@@ -196,16 +196,8 @@
 # }
 # 
 # alias cd=cd_func
-alias ll='ls -l'
-alias proj='cd /cygdrive/e/projects'
-alias vm='cd /cygdrive/e/Data/VMs'
-alias st='/cygdrive/c/Program\ Files/Sublime\ Text\ 2/sublime_text.exe'
-export VAGRANT_HOME=/cygdrive/e/Data/vagrant
 export PATH=$PATH:/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin
-export PATH=$PATH:/cygdrive/e/Program/HashiCorp/Vagrant/embedded/bin
-export PATH=$PATH:/cygdrive/e/Program/HashiCorp/Vagrant/bin
 export PATH=$PATH:$HOME/bin
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
+alias ssh="ssh -X"
 alias vi='vim'

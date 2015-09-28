@@ -1,0 +1,12 @@
+# Mouse Scroll
+scrollback 100000
+termcapinfo xterm* ti@:te@
+term xterm-256color
+
+# Status Line
+utf8 on
+caption always '%?%F%{= gW}%:%{= Kk}%?%2n%f%07=%t%='
+hardstatus alwayslastline '%m/%d %02c:%s %{= .g}%H%{-} %L=%-w%45L>%{= g.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
+
+# Logging
+bind S eval "exec sh -c 'screen -X hardcopy -h hardcopy; cat hardcopy > ~/term.Logging"
