@@ -42,3 +42,12 @@ fi
 # if [ -d "${HOME}/info" ]; then
 #   INFOPATH="${HOME}/info:${INFOPATH}"
 # fi
+
+if [ -x `which ssh-agent` ]; then
+	eval `ssh-agent`
+	ssh-add ~/.ssh/corp-auth.key
+fi
+
+PATH=$PATH:"/cygdrive/c/Program Files (x86)/sakura":"/cygdrive/c/gvim"
+
+VAGRANTHOME="/cygdrive/c/HashiCorp/Vagrant/bin"

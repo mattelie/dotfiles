@@ -199,7 +199,11 @@
 alias vi='vim'
 alias ssh='ssh -X'
 alias la='ls -A'
+alias ex='explorer'
 if [[ -x `which colordiff` ]]; then
       alias diff='colordiff -u'
 fi
 
+export PATH=$PATH:$HOME/bin
+
+alias gvim='"/cygdrive/c/Program Files/gvim/gvim.exe"'
