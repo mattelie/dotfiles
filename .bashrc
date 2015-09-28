@@ -96,22 +96,22 @@
 # alias mv='mv -i'
 #
 # Default to human readable figures
-# alias df='df -h'
-# alias du='du -h'
+ alias df='df -h'
+ alias du='du -h'
 #
 # Misc :)
-# alias less='less -r'                          # raw control characters
-# alias whence='type -a'                        # where, of a sort
-# alias grep='grep --color'                     # show differences in colour
-# alias egrep='egrep --color=auto'              # show differences in colour
-# alias fgrep='fgrep --color=auto'              # show differences in colour
+ alias less='less -r'                          # raw control characters
+ alias whence='type -a'                        # where, of a sort
+ alias grep='grep --color'                     # show differences in colour
+ alias egrep='egrep --color=auto'              # show differences in colour
+ alias fgrep='fgrep --color=auto'              # show differences in colour
 #
 # Some shortcuts for different directory listings
-# alias ls='ls -hF --color=tty'                 # classify files in colour
-# alias dir='ls --color=auto --format=vertical'
-# alias vdir='ls --color=auto --format=long'
-# alias ll='ls -l'                              # long list
-# alias la='ls -A'                              # all but . and ..
+ alias ls='ls -hF --color=tty'                 # classify files in colour
+ alias dir='ls --color=auto --format=vertical'
+ alias vdir='ls --color=auto --format=long'
+ alias ll='ls -l'                              # long list
+ alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
 
 # Umask
@@ -196,16 +196,10 @@
 # }
 # 
 # alias cd=cd_func
-alias ll='ls -l'
-alias proj='cd /cygdrive/e/projects'
-alias vm='cd /cygdrive/e/Data/VMs'
-alias st='/cygdrive/c/Program\ Files/Sublime\ Text\ 2/sublime_text.exe'
-export VAGRANT_HOME=/cygdrive/e/Data/vagrant
-export PATH=$PATH:/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin
-export PATH=$PATH:/cygdrive/e/Program/HashiCorp/Vagrant/embedded/bin
-export PATH=$PATH:/cygdrive/e/Program/HashiCorp/Vagrant/bin
-export PATH=$PATH:$HOME/bin
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
 alias vi='vim'
+alias ssh='ssh -X'
+alias la='ls -A'
+if [[ -x `which colordiff` ]]; then
+      alias diff='colordiff -u'
+fi
+
