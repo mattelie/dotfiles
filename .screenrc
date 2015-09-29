@@ -10,3 +10,9 @@ hardstatus alwayslastline '%m/%d %02c:%s %{= .g}%H%{-} %L=%-w%45L>%{= g.}%n %t%{
 
 # Logging
 bind S eval "exec sh -c 'screen -X hardcopy -h hardcopy; cat hardcopy > ~/term.Logging"
+
+# Clipboard
+bufferfile $HOME/.screen_exchange
+bindkey -m ' ' eval 'stuff \39' writebuf 'exec sh -c "cat $HOME/.screen_exchange > /dev/clipboard"'
+bindkey -m 'y' eval 'stuff y' writebuf 'exec sh -c "cat  $HOME/.screen_exchange > /dev/clipboard"'
+bindkey -m 'Y' eval 'stuff Y' writebuf 'exec sh -c "cat $HOME/.screen_exchange > /dev/clipboard"'
