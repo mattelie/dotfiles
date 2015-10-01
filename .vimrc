@@ -27,7 +27,20 @@ filetype plugin indent on
 call neobundle#end()
 
 "#半角文字の設定
-set guifont=MS_Gothic:h10
+set guifont=MS_Gothic:h11
 "
 "#全角文字の設定
-set guifontwide=MS_Gothic:h10
+set guifontwide=MS_Gothic:h11
+
+"クリップボードにコピー
+set clipboard=unnamed,autoselect
+"不可視文字を可視化
+set list 
+"tabや半角スペースの表示設定
+set listchars=tab:>-,trail:.  
+"全角スペースの表示設定
+augroup highlightIdegraphicSpace
+      autocmd!
+      autocmd Colorscheme * highlight IdeographicSpace term=underline ctermbg=DarkGreen guibg=DarkGreen
+      autocmd VimEnter,WinEnter * match IdeographicSpace /　/
+augroup END
