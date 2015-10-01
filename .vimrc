@@ -25,3 +25,9 @@ set shiftwidth=4
 filetype plugin indent on
 
 call neobundle#end()
+
+"#半角文字の設定
+set guifont=MS_Gothic:h10
+"
+"#全角文字の設定
+set guifontwide=MS_Gothic:h10
