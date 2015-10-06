@@ -38,9 +38,4 @@ set clipboard=unnamed,autoselect
 set list 
 "tabや半角スペースの表示設定
 set listchars=tab:>-,trail:.  
-"全角スペースの表示設定
-augroup highlightIdegraphicSpace
-      autocmd!
-      autocmd Colorscheme * highlight IdeographicSpace term=underline ctermbg=DarkGreen guibg=DarkGreen
-      autocmd VimEnter,WinEnter * match IdeographicSpace /　/
-augroup END
+
