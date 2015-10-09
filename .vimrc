@@ -39,3 +39,12 @@ set list
 "tabや半角スペースの表示設定
 set listchars=tab:>-,trail:.  
 
+noremap Y y$
+noremap <C-y> "*y$
+noremap \/ :nohlsearch<CR>
+
+"#Charactersetの自動判別
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+
+"#改行コードの自動認識
+set fileformats=unix,dos,mac
