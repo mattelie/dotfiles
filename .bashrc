@@ -205,5 +205,6 @@ if [[ -x `which colordiff` ]]; then
 fi
 
 export PATH=$PATH:$HOME/bin
+export VAGRANT_DETECTED_OS=cygwin
 
 alias gvim='"/cygdrive/c/Program Files/gvim/gvim.exe"'
