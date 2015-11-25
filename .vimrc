@@ -17,12 +17,16 @@ NeoBundle 'Shougo/vimfiler'
 NeoBundle 'vim-jp/vimdoc-ja'
 
 "#Tab Settings
-set tabstop=4
+set tabstop=8
 set autoindent
 set expandtab
-set shiftwidth=4
+set shiftwidth=8
+set number
 
 filetype plugin indent on
+
+"#colorscheme
+syntax on
 
 call neobundle#end()
 
@@ -35,9 +39,9 @@ set guifontwide=MS_Gothic:h11
 "クリップボードにコピー
 set clipboard=unnamed,autoselect
 "不可視文字を可視化
-set list 
+" set list 
 "tabや半角スペースの表示設定
-set listchars=tab:>-,trail:.  
+"set listchars=tab:>-,trail:.  
 
 noremap Y y$
 noremap <C-y> "*y$
@@ -47,4 +51,8 @@ noremap \/ :nohlsearch<CR>
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 
 "#改行コードの自動認識
-set fileformats=unix,dos,mac
+set fileformats=dos,unix,mac
+
+"#Escと<C-q>を入れ替え
+noremap <C-j> <esc>
+noremap! <C-j> <esc>
