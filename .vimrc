@@ -15,8 +15,14 @@ call neobundle#begin(expand('$HOME/.vim/bundle/'))
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'vim-jp/vimdoc-ja'
+" color scheme
+NeoBundle 'tomasr/molokai'
+colorscheme molokai
+syntax on
+highlight Normal ctermbg=none
 
 "#Tab Settings
+<<<<<<< HEAD
 set tabstop=8
 set autoindent
 set expandtab
@@ -38,21 +44,29 @@ set guifontwide=MS_Gothic:h11
 
 "クリップボードにコピー
 set clipboard=unnamed,autoselect
-"不可視文字を可視化
-" set list 
-"tabや半角スペースの表示設定
-"set listchars=tab:>-,trail:.  
+set tabstop=4
+syntax enable
+set ruler
+set autoindent
+set expandtab
+set shiftwidth=4
+set nocompatible
+set encoding=utf-8
+set fileencodings=utf-8,cp932,eucjp
+set number
+set hlsearch
+set showmatch
+set showcmd
+set smartcase
+set noincsearch
+set nobackup
+set clipboard=unnamed,autoselect
+set listchars=tab:>-,trail:-
 
-noremap Y y$
-noremap <C-y> "*y$
-noremap \/ :nohlsearch<CR>
 
-"#Charactersetの自動判別
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+filetype plugin indent on
 
 "#改行コードの自動認識
 set fileformats=dos,unix,mac
 
-"#Escと<C-q>を入れ替え
-noremap <C-j> <esc>
-noremap! <C-j> <esc>
+call neobundle#end()
